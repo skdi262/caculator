@@ -1,0 +1,29 @@
+html {
+    font-family: arial;
+}
+.display {
+    background-color: azure;
+    padding: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+}
+button { 
+    padding : 10px;
+    width:  68px;
+    height: 45px;
+     margin-top: 10px;
+    background-color: bisque;
+    font-size: 20px;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(219, 61, 61);
+}
+button:focus {
+    outline: none;
+}
+button:active {
+    background-color: chartreuse;
+}
