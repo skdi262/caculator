@@ -1,0 +1,31 @@
+/* css 파트. 디자인 꾸미는거 */
+html {
+    font-family: arial;
+}
+/* html 전체 폰트 arial */
+.display {
+    background-color: rgb(119, 197, 197);
+    padding: 15px;
+    width: 255px;
+    text-align: right;
+    font-size: 20px;
+}
+/* 계산 나오는 부분 css 처리 */
+button { 
+    padding : 10px;
+    width:  68px;
+    height: 45px;
+     margin-top: 10px;
+    background-color: bisque;
+    font-size: 20px;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(219, 61, 61);
+}
+/* 마우스 올라갔을 때 처리 */
+button:active {
+    background-color: chartreuse;
+}
+/* 버튼 눌렀을때 색상만 바뀌게 처리 */
